@@ -11,9 +11,8 @@
             "echoCommand": true
         },
         {
-            "taskName": "BuildSetup",
-            "command": "call",
-            "args": ["\"D:\\SW\\Visual Studio\\2017\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat\""],
+            "taskName": "clean",
+            "command": "clean.bat",
             "isShellCommand": true,
             "showOutput": "always",
             "echoCommand": true
